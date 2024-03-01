@@ -1,0 +1,46 @@
+name: 读书
+title: 阅读，成为一个独立人格的人
+subtitle: '阅读，成为一个独立人格的人'
+tags: 读书笔记
+icon: /images/books.jpg
+cover: /images/books.jpg
+description: 读万卷书 行万里路
+search:
+    filter: /wiki/reading/
+    placeholder: 在 reading 中搜索...
+leftbar:
+    - tree
+    - related
+comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
+comments:
+    service: giscus
+    giscus:
+        data-repo: xaoxuu/hexo-theme-stellar
+        data-mapping: number
+        data-term: 226
+base_dir: /wiki/reading/
+toc:
+    '快速开始':
+        - index
+        - examples
+        - releases
+    '基本使用':
+        - theme-settings
+        - pages
+        - sidebar
+        - tag-plugins
+        - tag-plugins/express
+        - tag-plugins/data
+        - tag-plugins/container
+        - comments
+    '文档系统':
+        - wiki-settings
+    '进阶玩法':
+        - widgets
+        - advanced-settings
+        - notes
+        - fcircle
+    '技术支持':
+        - articles
+        - todo
+        - contributors
