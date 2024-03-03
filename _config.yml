@@ -99,7 +99,9 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-    type: ''
+  type: git
+  repo: https://github.com/bonnie-dot/bonnie-dot.github.io
+  branch: main
 abbrlink:
     alg: crc32 #算法，支持crc16(default)和crc32
     rep: hex #进制，支持dec(default)和hex

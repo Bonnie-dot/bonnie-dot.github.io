@@ -13,7 +13,7 @@ article:
         '前端': '#3692f4'
 ######## Logo ########
 logo:
-    avatar: '[${config.avatar}](/about/me)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    avatar: '[${config.avatar}](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[${config.title}](/)' # you can set title link in _config.yml or '[https://xxx.com](/about/)'
     subtitle: '尽情体验生活的喜悦😃 | 勇敢面对生命的考验⛽️' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 site_tree:
@@ -25,7 +25,7 @@ site_tree:
     # 博客文章内页配置
     post:
         menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
-        leftbar: related, recent, tagcloud # for pages using 'layout:post'
+        leftbar: related,  tagcloud # for pages using 'layout:post'
         rightbar: ghrepo, toc, tagcloud
     # 博客文章内页配置
     reading:
@@ -315,3 +315,24 @@ style:
         background-image: #'url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.14/image/site-bg1@small.webp)' # 未完全适配，慎用
         blur-px: 100px
         blur-bg: var(--alpha75)
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: Bonnie-dot/blog-comments # [在此输入仓库]
+    data-repo-id: R_kgDOLbA0QQ
+    data-category: General 
+    data-category-id: DIC_kwDOLbA0Qc4Cdrx3
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: bottom # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
+
+
