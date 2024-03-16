@@ -8,16 +8,25 @@ description: 读万卷书 行万里路
 search:
     filter: /wiki/reading/
     placeholder: 在 reading 中搜索...
-leftbar:
-    - tree
-    - related
-comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
 comments:
-    service: giscus
-    giscus:
-        data-repo: xaoxuu/hexo-theme-stellar
-        data-mapping: number
-        data-term: 226
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: Bonnie-dot/blog-comments # [在此输入仓库]
+    data-repo-id: R_kgDOLbA0QQ
+    data-category: General 
+    data-category-id: DIC_kwDOLbA0Qc4Cdrx3
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: bottom # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
 base_dir: /wiki/reading/
 toc:
     '快速开始':
