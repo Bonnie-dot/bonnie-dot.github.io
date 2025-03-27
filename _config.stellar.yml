@@ -13,8 +13,8 @@ article:
         '前端': '#3692f4'
 ######## Logo ########
 logo:
-    avatar: '[${config.avatar}](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
-    title: '[${config.title}](/)' # you can set title link in _config.yml or '[https://xxx.com](/about/)'
+    avatar: '[http://localhost:4000/images/avatar.png](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    title: '[Bonnie 个人博客](/)' # you can set title link in _config.yml or '[https://xxx.com](/about/)'
     subtitle: '尽情体验生活的喜悦😃 | 勇敢面对生命的考验⛽️' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 ######## search ########
 search:
