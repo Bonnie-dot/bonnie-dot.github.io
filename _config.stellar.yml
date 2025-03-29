@@ -13,7 +13,7 @@ article:
         '前端': '#3692f4'
 ######## Logo ########
 logo:
-    avatar: '[http://localhost:4000/images/avatar.png](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    avatar: '[https://bonnie-dot.github.io/images/avatar.png](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[Bonnie 个人博客](/)' # you can set title link in _config.yml or '[https://xxx.com](/about/)'
     subtitle: '尽情体验生活的喜悦😃 | 勇敢面对生命的考验⛽️' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 ######## search ########
@@ -274,7 +274,7 @@ style:
         image: 12px # 图片圆角
     color:
         # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
-        background: 'hsl(212 16% 98%)' # 浅色背景颜色
+        background: 'hsl(0 0% 0%)' # 黑色背景颜色
         block: 'hsl(212 8% 95%)' # 块背景颜色
         code: 'hsl(220 20% 10%)' # 行内代码颜色
         text: 'hsl(0 0% 20%)' # 文本颜色
